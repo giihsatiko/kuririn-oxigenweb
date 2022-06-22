@@ -1,0 +1,130 @@
+@media (max-width: 993px){
+  // header
+
+
+  // aside
+  .sobre {
+    img {
+      width: 450px;
+    }
+  }
+  .texto-sobre {
+    padding-left: 30px;
+    h1 {
+      width: 442px;
+    }
+    p {
+      width: 449px;
+    }
+  }
+
+  // main
+  .caixa-retangulos {
+    z-index: 3;
+  }
+  .beneficios {
+    margin-left: 70px;
+  }
+  .retangulo-beneficios {
+    h3 {
+      width: 244px;
+      line-height: 41.88px;
+    }
+  }
+
+  // footer 
+  .rodape {
+    .oxigen {
+      padding-right: 0;
+    }
+  }
+}
+
+@media (max-width:768px) {
+  // header 
+  .bg-shenlong {
+    background-image: url('./images/shenlong-sm.png');
+    height: 847px;
+  }
+  .intro {
+    padding-top: 400px;
+  }
+  .texto-intro {
+    h1 {
+      width: 561px;
+      font-size: 40px;
+      line-height: 51px;
+      text-align: center;
+    }
+    a {
+      font-weight: 600px;
+      font-size: 18px;
+      width: 330px;
+      &:first-of-type {
+        padding: 20px 60px;
+        margin-right: 0;
+      }
+      &:nth-of-type(2) {
+        padding: 20px 40px;
+      }
+    }
+  }
+  // main
+  .conteudo-principal {
+    margin-bottom: -20px;
+  }
+  .retangulo {
+    margin: 30px 0;
+  }
+  .texto-principal {
+    flex-wrap: nowrap;
+  }
+  .esferas {
+    height: 1000px;
+  }
+  .beneficios {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .swiper {
+    margin: auto;
+    position: relative;
+    margin-top: -100px;
+  }
+  .retangulo-beneficios {
+    margin: auto;
+    h3 {
+      text-align: center;
+      font-size: 30px;
+      font-weight: 400;
+    }
+  }
+  // aside
+  .sobre {
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width:767px) {
+  .bg-shenlong {
+    background-image: url('./images/shenlong-xs.png');
+    background-size: cover;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .texto-intro {
+    h1 {
+      width: 289px;
+      font-size: 24px;
+      line-height: 30px;
+      height: 120px;
+    }
+  }
+}

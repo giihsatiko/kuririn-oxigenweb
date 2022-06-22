@@ -1,0 +1,58 @@
+section {
+  background-color: #F3771D;
+  height: 1400px;
+  background-image: url('images/formulario.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  img {
+    width: 100%;
+  }
+}
+
+.conteudo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.texto-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    color: $cinza-claro;
+  }
+  padding-bottom: 14.38px;
+}
+.kuririn {
+  height: 114.62px;
+  width: 251px;
+}
+form {
+  align-self: center;
+  font-family: 'Readex Pro';
+  color: #555555;
+  span, label {
+    color: #555555;
+  }
+  input, div {
+    margin-bottom: 20px;
+    width: 543px;
+    height: 62px;
+  }
+}
+
+
+input[type='file'] {
+  display: none;   
+}
+#check {
+  color: white;
+  font-family: 'Readex Pro';
+  a {
+    color: white;
+    font-family: 'Readex Pro';
+  }
+}

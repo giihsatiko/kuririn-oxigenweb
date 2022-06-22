@@ -1,0 +1,80 @@
+$azul-escuro: #0047D0;
+$cinza-claro: #E5E5E5;
+* {
+  font-family: 'Paytone One', sans-serif;
+}
+.bg-shenlong {
+  background-image: url('images/shenlong.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -5;
+  height: fit-content;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#lista-link {
+  display: flex;
+  align-items: center;
+  a {
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.5px;
+    color: white;
+  }
+}
+.button {
+  background-color: $azul-escuro;
+  color: $cinza-claro;
+  padding: 20px 50px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+.faixa {
+  position: absolute;
+  z-index: -1;
+  height: 210px;
+  width: 100%;
+}
+
+.intro {
+  height: 847px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 111.38px;
+  z-index: -1;
+  h1 {
+    color: white;
+    width: 561px;
+    padding-bottom: 53px;
+  }
+  .texto-intro {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    a {
+      font-family: 'Readex Pro';
+      text-decoration: none;
+      &:first-of-type {
+        margin-right: 53px;
+      }
+      &:nth-of-type(2) {
+        border: 2px solid $azul-escuro;
+        border-radius: 15px;
+        padding: 20px 50px;
+        color: white;
+      }
+    }
+    .seta {
+      padding-top: 157px;
+      align-self: flex-end;
+      padding-right: 120px;
+    }
+  }
+}

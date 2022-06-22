@@ -1,0 +1,28 @@
+.sobre-bg {
+  background-color: #101010;
+  position: relative;
+  z-index: 1;
+  height: fit-content;
+}
+.sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.texto-sobre {
+  padding-left: 57.93px;
+  color: white;
+  align-self: center;
+  h1 {
+    width: 533px;
+  }
+  p {
+    width: 542px;
+    height: 131px;
+    font-family: 'Readex Pro';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22.5px;
+  }
+}

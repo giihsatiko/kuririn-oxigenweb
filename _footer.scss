@@ -1,0 +1,36 @@
+.rodape {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  .oxigen {
+    padding-top: 40px;
+    padding-right: 39.34px;
+    font-family: 'Readex Pro';
+    color: white;
+    font-weight: 400;
+    size: 16px;
+    right: 0;
+    display: flex;
+    align-self: center;
+    p {
+      padding-right: 20px;
+    }
+    img {
+      height: 28.86px;
+      width: 22.66px;
+    }
+  }
+}
+.rodape-kuririn {
+  background-image: url('images/kuririn-rodape.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  width: 100%;
+  height: 90px;
+  margin-top: -80px;
+}
+
+
